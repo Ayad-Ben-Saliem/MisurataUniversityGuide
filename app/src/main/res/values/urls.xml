@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="engineering_fb_page"></string>
+    <string name="science_fb_page">كلية-العلوم-مصراته-473792386051382</string>
+    <string name="education_fb_page">قسم-الإدارة-والتخطيط-التربوي-كلية-التربية-مصراته-279835375804761/</string>
+    <string name="ag">/كلية-الزراعة-جامعة-مصراتة-799729606874959</string>
+
+    <string name="arts_students_union_fb_page">/إتحاد-طلبة-كلية-الآداب-_جامعه-مصراتة-1422311211368105/</string>
+    <string name="conomics_students_union_fb_page">/ethad.allttalbh</string>
+
+</resources>

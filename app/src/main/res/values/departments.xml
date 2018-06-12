@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Engineering Faculty Departments  -->
+    <string name="eng_gd">القسم العام</string>
+    <string name="eng_ce">قسم الهندسة المدنية</string>
+    <string name="eng_pe">قسم الهندسة النفطية</string>
+    <string name="eng_ie">قسم الهندسة الصناعية</string>
+    <string name="eng_ae">قسم الهندسة المعمارية</string>
+    <string name="eng_mse">قسم هندسة علم المواد</string>
+    <string name="eng_me">قسم الهندسة الميكانيكية</string>
+    <string name="eng_hee">قسم هندسة علم المياة والبيئة</string>
+    <string name="eng_eee">قسم الهندسة الكهربائية والإلكترونية</string>
+
+
+    <!--  IT Faculty Departments -->
+    <string name="it_is">قسم نظم الإنترنت</string>
+    <string name="it_cs">قسم علوم الحاسوب</string>
+    <string name="it_ne">قسم هندسة الشبكات</string>
+    <string name="it_se">قسم هندسة البرمجيات</string>
+    <string name="it_info_sys">قسم نظم المعلومات</string>
+    <string name="it_mm">قسم هندسة الوسائط المتعددة</string>
+
+
+    <!--  Departments of Science Faculty  -->
+    <string name="sci_math">قسم الرياضيات</string>
+    <string name="sci_genetics">قسم الوراثة</string>
+    <string name="sci_physics">قسم الفيزياء</string>
+    <string name="sci_botany">قسم علم النبات</string>
+    <string name="sci_statistics">قسم الإحصاء</string>
+    <string name="sci_chemistry">قسم الكيمياء</string>
+    <string name="sci_zoology">قسم علم الحيوان</string>
+    <string name="sci_micro">قسم الأحياء الدقيقة</string>
+    <string name="sci_medical_physics">قسم الفيزياء الطبية</string>
+
+
+
+    <!--  Departments of Education Faculty  -->
+    <string name="edu_manag_edu_planning">قسم الإدارة و التخطيط  التربوي</string>
+    <string name="edu_social_service">قسم الخدمة الإجتماعية</string>
+    <string name="edu_psychology">قسم التربية و علم النفس</string>
+    <string name="edu_kindergarten">قسم رياض الأطفال</string>
+    <string name="edu_special">قسم التربية الخاصة</string>
+    <string name="edu_arabic">قسم اللغة العربية</string>
+    <string name="edu_geography">قسم الجغرافيا</string>
+    <string name="edu_chapter">قسم علم الفصل</string>
+    <string name="edu_computer">قسم الحاسوب</string>
+    <string name="edu_physics">قسم الفيزياء</string>
+    <string name="edu_chemists">قسم الكيماء</string>
+    <string name="edu_history">قسم التاريخ</string>
+    <string name="edu_math">قسم الرياضيات</string>
+    <string name="edu_biology">قسم الأحياء</string>
+
+
+
+    <!--  Departments of Art Faculty  -->
+    <string name="arts_geography_and_it">قسم الجغرافيا وتقنية المعلومات</string>
+    <string name="arts_libs_and_info">قسم المكتبات و تقنية المعلومات</string>
+    <string name="arts_psychological_health">قسم الصحة النفسية</string>
+    <string name="arts_arabic">فسم اللغة العربية وآدابها</string>
+    <string name="arts_english">قسم اللغة الإنجليزية</string>
+    <string name="arts_italian">قسم اللغة الإيطالية</string>
+    <string name="arts_french">قسم اللغة الفرنسية</string>
+    <string name="arts_sociology">قسم علم الإجتماع</string>
+    <string name="arts_philosophy">قسم الفلسفة</string>
+    <string name="arts_edu">قسم علوم التربية</string>
+    <string name="arts_history">قسم التاريخ</string>
+
+
+
+    <!--  Departments of Faculty of Economics and Political Science  -->
+    <string name="eco_poli_general">القسم العام</string>
+    <string name="eco_poli_economics">قسم الإقتصاد</string>
+    <string name="eco_poli_marketing">قسم التسويق</string>
+    <string name="eco_poli_accounting">قسم المحاسبة</string>
+    <string name="eco_poli_business_admins">قسم إدارة الأعمال</string>
+    <string name="eco_poli_general_admins">قسم الإدارة العامة</string>
+    <string name="eco_poli_political_science">قسم العلوم السياسية</string>
+    <string name="eco_poli_international_trade">قسم التجارة الدولية</string>
+
+
+
+    <!--  Faculty of Low Departments  -->
+    <string name="low_private">قسم القانون الخاص</string>
+    <string name="low_public">قسم القانون العام</string>
+    <string name="low_criminal">قسم القانون الجنائي</string>
+    <string name="low_islamic">قسم الشريعة الإسلامية</string>
+
+
+
+    <!--  Faculty of Human Medicine Departments  -->
+    <string name="human_med_preparation">قسم الإعداد</string>
+    <string name="human_med_anatomy">قسم علم التشريح</string>
+    <string name="human_med_histology">قسم علم الأنسجة</string>
+    <string name="human_med_physiology">قسم علم وظائف الأعضاء</string>
+    <string name="human_med_biochemistry">قسم علم الكيمياء الحيوية</string>
+    <string name="human_med_pharmacology">قسم علم الأدوية</string>
+    <string name="human_med_microbiology">قسم علم الأحياء الدقيقة</string>
+    <string name="human_med_parasitology">قسم علم الطفيليات</string>
+    <string name="human_med_pathology">قسم علم الأمراض</string>
+    <string name="human_med_gynecology">قسم علم أمراض النساء والتوليد</string>
+    <string name="human_med_ophthalmology">قسم علم طب وجراحة العيون</string>
+    <string name="human_med_family_and_community">قسم طب الأسرة والمجتمع</string>
+    <string name="human_med_forensic"> قسم الطب الشرعي والسموم</string>
+    <string name="human_med_internal">قسم الأمراض الباطنية وفروعها</string>
+    <string name="human_med_surgery">قسم علوم الجراحة وفروعها</string>
+    <string name="human_med_pediatrics"> قسم طب الأطفال</string>
+    <string name="human_med_radiology_and_Imaging">قسم الأشعة والتصوير الطبي</string>
+
+
+
+    <!--  Faculty of Pharmacy Departments -->
+    <string name="pharmacy_industrial_pharmacy">قسم الصيدلة الصناعية</string>
+    <string name="pharmacy_drugs_and_toxins">قسم الأدوية والسموم</string>
+    <string name="pharmacy_pharmaceutics">قسم الصيدلانيات</string>
+    <string name="pharmacy_chemistry">قسم الكيمياء</string>
+    <string name="pharmacy_drugs">قسم العقاقير</string>
+
+
+
+
+    <!--  Faculty of Nursing Departments -->
+    <string name="nursing_general">قسم التمريض العام</string>
+    <string name="nursing_midwifery_and_newborn">قسم تمريض القبالة وحديثي الولادة</string>
+    <string name="nursing_and_intensive_care_anesthesia">قسم تمريض العناية الفائقة والتخدير</string>
+
+
+    
+    <!--  Faculty of Physical Education Departments -->
+    <string name="department_of_educational_sciences_and_psychological_and_sports">قسم العلوم التربوية و النفسية و الرياضية</string>
+    <string name="department_of_curriculum_and_teaching_physical_education">قسم المناهج و تدريس التربية البدنية</string>
+    <string name="department_of_sports_training_and_movement_science">قسم التدريب الرياضي و علوم الحركة</string>
+    <string name="department_of_management_and_sports_and_recreation">قسم الإدارة و الرياضية و الترويح</string>
+    <string name="physical_therapy_an_rehabilitation_department">قسم العلاج الطبيعي و التأهيل الحركي</string>
+
+
+
+    
+    <!--  Faculty of Arts and Media Departments  -->
+    <string name="arts_and_media_department_of_decoration_architecture_and_interior_design">قسم الصحافة</string>
+    <string name="arts_and_media_department_of_public_relations_and_advertising">قسم الإذاعة و التلفزيون</string>
+    <string name="arts_and_media_electronic_media_decoration">قسم الديكور و العمارة و التصميم  الداخلي</string>
+    <string name="arts_and_media_department_of_design_and_decoration">قسم العلاقات العامة و الإعلان</string>
+    <string name="arts_and_media_radio_and_television_department">قسم التشكيل و الزخرفة</string>
+    <string name="arts_and_media_department_of_performing_arts">قسم الفنون الموسيقية</string>
+    <string name="arts_and_media_department_of_art_education">قسم الإعلام الإلكتروني</string>
+    <string name="arts_and_media_department_of_musical_arts">قسم التربية الفنية</string>
+    <string name="arts_and_media_press_department">قسم الفنون المسرحية</string>
+
+
+    <!--  Faculty of Medicine and Oral Surgery Departments  -->
+    <string name="dept_of_prosthodontics">قسم التركيبات</string>
+    <string name="dept_of_orthodontics">قسم تقويم الأسنان</string>
+    <string name="dept_of_preventive_and_community_dentistry">قسم طب الأسنان الوقائي وطب المجتمع</string>
+    <string name="dept_of_conservative_centistry">قسم العلاج التحفظي</string>
+    <string name="dept_of_oral_medicine_radiology_and_pathology_oral_diagnosis">قسم طب الفم والتشخيص والأشعة وأمراض الفم</string>
+    <string name="dept_of_oral_and_maxillofacial_surgery">قسم طب جراحة الفم والفكين</string>
+    <string name="dept_of_pedodontics">قسم طب أسنان الأطفال</string>
+    <string name="dept_of_oral_biology">قسم علم أحياء الفم</string>
+    <string name="dept_of_periodontics">قسم علاج اللثة</string>
+
+
+    
+    <!-- ################################################################################## -->
+
+
+
+
+    <!--  Engineering Faculty Departments Description  -->
+    <string name="eng_ce_desc">لا يوجد وصف حاليا</string>
+    <string name="eng_gd_desc">لا يوجد وصف حاليا</string>
+    <string name="eng_pe_desc">لا يوجد وصف حاليا</string>
+    <string name="eng_me_desc">
+        السيارة، مركبة الفضاء توليد الطاقة الكهربية، ميكنة الزراعة، الطائرة، الدوائر المتكاملة، تكييف الهواء والتبريد، استخدام الحاسوب في التصميم والتصنيع، الهندسة الحيوية، المواصفات والمقاييس، صنفت هذه  المنجزات كأهم عشر منجزات للقرن العشرين، وذلك حسب اسفتاء لأحد المجلات الهندسية، والجدير بالملاحظة في هذا المقام أن ثمانية من هذه المنجزات يمكن أن نعدها انجازات ميكانيكية، طبعا فإنه بدون فروع الهندسة المختلفة لما وصلت هذه المنجزات إلى ماوصلت إليه، ولكن ما نود قوله أن الهندسة الميكانيكية هي هندسة الابداع والابتكار. وهي هندسة الآلة حيث يصعب الفصل بين التصميم والهندسة الميكانيكية، وبدونها لما وجدت المنتجات السابقة من أساسها.
+أما عن تاريخ الهندسة الميكانيكية، فقد يصعب علينا تتبع بدايته، خاصة إذا ما ربطناه بتاريخ الآلة التي رافقت الانسان من أقدم العصور، رغم حفاظها على قدر من البساطة، أما إذا ما ربطناه بما هو موجود حاليا، وما يدرس في الجامعات فإن للهندسة الميكانيكية نشأتين، نشأة نظرية ارتبطت بالمعادلات الرياضية كمعادلات نيوتن للحركة والتي لازال طلاب الجامعة يفتتحون بها دراستهم إلى يومنا هذا، أما النشأة الأخرى، فقد ارتبطت بازدهار الآلات في عصر النهضة في أوروبا والذي توج باختراع المحرك البخاري و الذي استعمل لأول مرة في ضخ الماء على يد المخترع نيوكمن سنة1712 ومالبثت هذه المحركات أن علت ظهور السفن والعربات بدلا من الأحصنة. ولقد كان لها تأثير واضح في تحفيز العقول التي تتسائل عن مصدر هذه الحركة التي تظهرها، والتي نشأ بموجبها علم الديناميكا الحرارية الذي يعتبر  أحد أهم المبادئ الأساسية بقسم الهندسة الميكانيكية .
+    </string>
+    <string name="eng_ie_desc">لا يوجد وصف حاليا</string>
+    <string name="eng_ae_desc">لا يوجد وصف حاليا</string>
+    <string name="eng_mse_desc">لا يوجد وصف حاليا</string>
+    <string name="eng_hee_desc">لا يوجد وصف حاليا</string>
+    <string name="eng_eee_desc">
+        تعتبر الهندسة الكهربائية والإلكترونية ذلك التخصص الدراسي الذي هو عبارة عن فرع من فروع العلوم الهندسية الذي يهتم بدراسة توليد وإنتاج الطاقة الكهربائية ثم نقلها وتوزيعها ليتم استخدامها في مجالات الإلكترونيات والتحكم الآلي والاتصالات. وترجع أهمية الهندسة الكهربائية في العصر الحالي لكونها العامل المؤثر في قطاع الصناعة، كما أنه من أهم عوامل الدعم لتقدم ونمو الاقتصاد. فهي تقريباً عصب الحضارة المدنية في وقتنا الحالي، والهندسة الكهربائية مجال دراسي ذو خلفية تاريخية تعود إلى ثلاثة قرون مضت، حيث يُعتقد أن أول مهندس كهرباء هو المهندس وليام جلبرت في القرن السابع عشر ويقال أنه أول من استخدم مصطلح الكهرباء في التفريق بين المغناطيسية والكهربية الساكنة بعد أن كانت دراسات الهندسة الكهربائية في أول ظهورها مندمجة في علم الفيزياء أيام علماء ورواد الكهرباء الأوائل توماس أديسون وفيرنر فون سيمنس.
+الدراسة بتخصصات الهندسة الكهربائية والإلكترونية الأكاديمية تتضمن دراسة القوى الكهربائية وهندسة الإلكترونيات والاتصالات ونظم التحكم الآلي وتطبيقاته في مجال هندسة القوى الكهربائية، حيث يتناول هذا التخصص نظم توليد الطاقة الكهربائية وطرق وتقنيات نقلها بالجهد العالي وتوزيعها على المستهلكين بالجهود المتوسطة والمنخفضة، بينما تتناول الهندسة الإلكترونية الدوائر والنظم الالكترونية التماثلية والرقمية وعلوم وهندسة الحاسبات وأسس الاتصالات مع نظم وشبكات الاتصالات السلكية واللاسلكية. نظريات ونظم التحكم الآلي مع تطبيقاتها في الحياة العملية مثل أنظمة التحريك الكهربائي ومجالات التحكم المختلفة بالهندسة الكهربائية.
+    </string>
+
+
+    <!--  IT Faculty Departments Description  -->
+    <string name="it_info_sys_desc">لا يوجد وصف حاليا</string>
+    <string name="it_se_desc">لا يوجد وصف حاليا</string>
+    <string name="it_ne_desc">لا يوجد وصف حاليا</string>
+    <string name="it_is_desc">يسعى قسم نظم الإنترنت لأن يكون مرجعا محليا وإقليميا في توطين وتطوير تقنيات الإنترنت والبرامج الموزعة وبرامج الهواتف الذكية. فضلا عن إعداد الكوادر والكفاءات القادرة على مواكبة التغيرات السريعة في مجال برمجة الانترنت والهواتف الذكية، مساهما في خلق مجتمع المعرفة، وملبيا لاحتياجات السوق المحلي في هذا المجال.</string>
+    <string name="it_cs_desc">لا يوجد وصف حاليا</string>
+    <string name="it_mm_desc">لا يوجد وصف حاليا</string>
+
+
+
+    <!--  Description of Science Faculty Departments  -->
+    <string name="sci_math_desc">قسم الرياضيات</string>
+    <string name="sci_genetics_desc">قسم الوراثة</string>
+    <string name="sci_physics_desc">قسم الفيزياء</string>
+    <string name="sci_botany_desc">قسم علم النبات</string>
+    <string name="sci_statistics_desc">قسم الإحصاء</string>
+    <string name="sci_chemistry_desc">قسم الكيمياء</string>
+    <string name="sci_zoology_desc">قسم علم الحيوان</string>
+    <string name="sci_micro_desc">قسم الأحياء الدقيقة</string>
+    <string name="sci_medical_physics_desc">قسم الفيزياء الطبية</string>
+
+
+
+
+    <!--  Description of Education Faculty Departments  -->
+    <string name="edu_manag_edu_planning_desc">قسم الإدارة و التخطيط  التربوي</string>
+    <string name="edu_social_service_desc">قسم الخدمة الإجتماعية</string>
+    <string name="edu_psychology_desc">قسم التربية و علم النفس</string>
+    <string name="edu_kindergarten_desc">قسم رياض الأطفال</string>
+    <string name="edu_special_desc">قسم التربية الخاصة</string>
+    <string name="edu_arabic_desc">قسم اللغة العربية</string>
+    <string name="edu_geography_desc">قسم الجغرافيا</string>
+    <string name="edu_chapter_desc">قسم علم الفصل</string>
+    <string name="edu_computer_desc">قسم الحاسوب</string>
+    <string name="edu_physics_desc">قسم الفيزياء</string>
+    <string name="edu_chemists_desc">قسم الكيماء</string>
+    <string name="edu_history_desc">قسم التاريخ</string>
+    <string name="edu_math_desc">قسم الرياضيات</string>
+    <string name="edu_biology_desc">قسم الأحياء</string>
+
+
+
+
+    <!--  Description of Art Faculty Departments  -->
+    <string name="arts_geography_and_it_desc">قسم الجغرافيا وتقنية المعلومات</string>
+    <string name="arts_libs_and_info_desc">قسم المكتبات و تقنية المعلومات</string>
+    <string name="arts_psychological_health_desc">قسم الصحة النفسية</string>
+    <string name="arts_arabic_desc">فسم اللغة العربية وآدابها</string>
+    <string name="arts_english_desc">قسم اللغة الإنجليزية</string>
+    <string name="arts_italian_desc">قسم اللغة الإيطالية</string>
+    <string name="arts_french_desc">قسم اللغة الفرنسية</string>
+    <string name="arts_sociology_desc">قسم علم الإجتماع</string>
+    <string name="arts_philosophy_desc">قسم الفلسفة</string>
+    <string name="arts_edu_desc">قسم علوم التربية</string>
+    <string name="arts_history_desc">قسم التاريخ</string>
+
+
+
+    <!--  Description of Faculty of Economics and Political Science Departments  -->
+    <string name="eco_poli_general_desc">القسم العام</string>
+    <string name="eco_poli_economics_desc">قسم الإقتصاد</string>
+    <string name="eco_poli_marketing_desc">قسم التسويق</string>
+    <string name="eco_poli_accounting_desc">قسم المحاسبة</string>
+    <string name="eco_poli_business_admins_desc">قسم إدارة الأعمال</string>
+    <string name="eco_poli_general_admins_desc">قسم الإدارة العامة</string>
+    <string name="eco_poli_political_science_desc">قسم العلوم السياسية</string>
+    <string name="eco_poli_international_trade_desc">قسم التجارة الدولية</string>
+
+
+
+    <!--  Description Faculty of Low Departments  -->
+    <string name="low_private_desc">قسم القانون الخاص</string>
+    <string name="low_public_desc">قسم القانون العام</string>
+    <string name="low_criminal_desc">قسم القانون الجنائي</string>
+    <string name="low_islamic_desc">قسم الشريعة الإسلامية</string>
+
+
+
+    <!--  Faculty of Human Medicine Departments  -->
+    <string name="human_med_preparation_desc">قسم الإعداد</string>
+    <string name="human_med_anatomy_desc">قسم علم التشريح</string>
+    <string name="human_med_histology_desc">قسم علم الأنسجة</string>
+    <string name="human_med_physiology_desc">قسم علم وظائف الأعضاء</string>
+    <string name="human_med_biochemistry_desc">قسم علم الكيمياء الحيوية</string>
+    <string name="human_med_pharmacology_desc">قسم علم الأدوية</string>
+    <string name="human_med_microbiology_desc">قسم علم الأحياء الدقيقة</string>
+    <string name="human_med_parasitology_desc">قسم علم الطفيليات</string>
+    <string name="human_med_pathology_desc">قسم علم الأمراض</string>
+    <string name="human_med_gynecology_desc">قسم علم أمراض النساء والتوليد</string>
+    <string name="human_med_ophthalmology_desc">قسم علم طب وجراحة العيون</string>
+    <string name="human_med_family_and_community_desc">قسم طب الأسرة والمجتمع</string>
+    <string name="human_med_forensic_desc"> قسم الطب الشرعي والسموم</string>
+    <string name="human_med_internal_desc">قسم الأمراض الباطنية وفروعها</string>
+    <string name="human_med_surgery_desc">قسم علوم الجراحة وفروعها</string>
+    <string name="human_med_pediatrics_desc"> قسم طب الأطفال</string>
+    <string name="human_med_radiology_and_Imaging_desc">قسم الأشعة والتصوير الطبي</string>
+
+
+
+    <!--  Description of Faculty of Pharmacy Departments -->
+    <string name="pharmacy_industrial_pharmacy_desc">قسم الصيدلة الصناعية</string>
+    <string name="pharmacy_drugs_and_toxins_desc">قسم الأدوية والسموم</string>
+    <string name="pharmacy_pharmaceutics_desc">قسم الصيدلانيات</string>
+    <string name="pharmacy_chemistry_desc">قسم الكيمياء</string>
+    <string name="pharmacy_drugs_desc">قسم العقاقير</string>
+
+
+
+    <!--  Description of Faculty of Nursing Departments -->
+    <string name="nursing_general_desc">قسم التمريض العام</string>
+    <string name="nursing_midwifery_and_newborn_desc">قسم تمريض القبالة وحديثي الولادة</string>
+    <string name="nursing_and_intensive_care_anesthesia_desc">قسم تمريض العناية الفائقة والتخدير</string>
+
+
+
+    <!--  Faculty of Physical Education Departments -->
+    <string name="department_of_educational_sciences_and_psychological_and_sports_desc">قسم العلوم التربوية و النفسية و الرياضية</string>
+    <string name="department_of_curriculum_and_teaching_physical_education_desc">قسم المناهج و تدريس التربية البدنية</string>
+    <string name="department_of_sports_training_and_movement_science_desc">قسم التدريب الرياضي و علوم الحركة</string>
+    <string name="department_of_management_and_sports_and_recreation_desc">قسم الإدارة و الرياضية و الترويح</string>
+    <string name="physical_therapy_an_rehabilitation_department_desc">قسم العلاج الطبيعي و التأهيل الحركي</string>
+
+
+
+    <!--  Faculty of Arts and Media Departments  -->
+    <string name="arts_and_media_department_of_decoration_architecture_and_interior_design_desc">قسم الصحافة</string>
+    <string name="arts_and_media_department_of_public_relations_and_advertising_desc">قسم الإذاعة و التلفزيون</string>
+    <string name="arts_and_media_electronic_media_decoration_desc">قسم الديكور و العمارة و التصميم  الداخلي</string>
+    <string name="arts_and_media_department_of_design_and_decoration_desc">قسم العلاقات العامة و الإعلان</string>
+    <string name="arts_and_media_radio_and_television_department_desc">قسم التشكيل و الزخرفة</string>
+    <string name="arts_and_media_department_of_performing_arts_desc">قسم الفنون الموسيقية</string>
+    <string name="arts_and_media_department_of_art_education_desc">قسم الإعلام الإلكتروني</string>
+    <string name="arts_and_media_department_of_musical_arts_desc">قسم التربية الفنية</string>
+    <string name="arts_and_media_press_department_desc">قسم الفنون المسرحية</string>
+
+
+
+    <!--  Description of Faculty of Medicine and Oral Surgery Departments  -->
+    <string name="dept_of_prosthodontics_desc">قسم التركيبات</string>
+    <string name="dept_of_orthodontics_desc">قسم تقويم الأسنان</string>
+    <string name="dept_of_preventive_and_community_dentistry_desc">قسم طب الأسنان الوقائي وطب المجتمع</string>
+    <string name="dept_of_conservative_centistry_desc">قسم العلاج التحفظي</string>
+    <string name="dept_of_oral_medicine_radiology_and_pathology_oral_diagnosis_desc">قسم طب الفم والتشخيص والأشعة وأمراض الفم</string>
+    <string name="dept_of_oral_and_maxillofacial_surgery_desc">قسم طب جراحة الفم والفكين</string>
+    <string name="dept_of_pedodontics_desc">قسم طب أسنان الأطفال</string>
+    <string name="dept_of_oral_biology_desc">قسم علم أحياء الفم</string>
+    <string name="dept_of_periodontics_desc">قسم علاج اللثة</string>
+
+
+    <!-- ################################################################################## -->
+
+
+
+    <string-array name="eng_departments">
+        <item>@string/eng_eee</item>
+        <item>@string/eng_hee</item>
+        <item>@string/eng_mse</item>
+        <item>@string/eng_ae</item>
+        <item>@string/eng_ie</item>
+        <item>@string/eng_me</item>
+        <item>@string/eng_pe</item>
+        <item>@string/eng_gd</item>
+        <item>@string/eng_ce</item>
+    </string-array>
+
+
+    <string-array name="it_departments">
+        <item>@string/it_is</item>
+        <item>@string/it_cs</item>
+        <item>@string/it_se</item>
+        <item>@string/it_ne</item>
+        <item>@string/it_mm</item>
+        <item>@string/it_info_sys</item>
+    </string-array>
+
+
+    <string-array name="sci_departments">
+        <item>@string/sci_math</item>
+        <item>@string/sci_micro</item>
+        <item>@string/sci_botany</item>
+        <item>@string/sci_physics</item>
+        <item>@string/sci_zoology</item>
+        <item>@string/sci_genetics</item>
+        <item>@string/sci_chemistry</item>
+        <item>@string/sci_statistics</item>
+        <item>@string/sci_medical_physics</item>
+    </string-array>
+
+
+    <string-array name="edu_departments">
+        <item>@string/edu_manag_edu_planning</item>
+        <item>@string/edu_social_service</item>
+        <item>@string/edu_psychology</item>
+        <item>@string/edu_kindergarten</item>
+        <item>@string/edu_special</item>
+        <item>@string/edu_arabic</item>
+        <item>@string/edu_geography</item>
+        <item>@string/edu_chapter</item>
+        <item>@string/edu_computer</item>
+        <item>@string/edu_physics</item>
+        <item>@string/edu_chemists</item>
+        <item>@string/edu_history</item>
+        <item>@string/edu_math</item>
+        <item>@string/edu_biology</item>
+    </string-array>
+
+
+    <string-array name="arts_departments">
+        <item>@string/arts_psychological_health</item>
+        <item>@string/arts_geography_and_it</item>
+        <item>@string/arts_libs_and_info</item>
+        <item>@string/arts_philosophy</item>
+        <item>@string/arts_sociology</item>
+        <item>@string/arts_history</item>
+        <item>@string/arts_english</item>
+        <item>@string/arts_italian</item>
+        <item>@string/arts_arabic</item>
+        <item>@string/arts_french</item>
+        <item>@string/arts_edu</item>
+    </string-array>
+
+
+    <string-array name="eco_poli_departments">
+        <item>@string/eco_poli_general</item>
+        <item>@string/eco_poli_economics</item>
+        <item>@string/eco_poli_marketing</item>
+        <item>@string/eco_poli_accounting</item>
+        <item>@string/eco_poli_business_admins</item>
+        <item>@string/eco_poli_general_admins</item>
+        <item>@string/eco_poli_political_science</item>
+        <item>@string/eco_poli_international_trade</item>
+    </string-array>
+
+
+    <string-array name="low_departments">
+        <item>@string/low_criminal</item>
+        <item>@string/low_islamic</item>
+        <item>@string/low_private</item>
+        <item>@string/low_public</item>
+    </string-array>
+
+
+    <string-array name="human_med_departments">
+        <item>@string/human_med_preparation</item>
+        <item>@string/human_med_anatomy</item>
+        <item>@string/human_med_histology</item>
+        <item>@string/human_med_physiology</item>
+        <item>@string/human_med_biochemistry</item>
+        <item>@string/human_med_pharmacology</item>
+        <item>@string/human_med_microbiology</item>
+        <item>@string/human_med_parasitology</item>
+        <item>@string/human_med_pathology</item>
+        <item>@string/human_med_gynecology</item>
+        <item>@string/human_med_ophthalmology</item>
+        <item>@string/human_med_family_and_community</item>
+        <item>@string/human_med_forensic</item>
+        <item>@string/human_med_internal</item>
+        <item>@string/human_med_surgery</item>
+        <item>@string/human_med_pediatrics</item>
+        <item>@string/human_med_radiology_and_Imaging</item>
+    </string-array>
+
+
+    <string-array name="pharmacy_departments">
+        <item>@string/pharmacy_industrial_pharmacy</item>
+        <item>@string/pharmacy_drugs_and_toxins</item>
+        <item>@string/pharmacy_pharmaceutics</item>
+        <item>@string/pharmacy_chemistry</item>
+        <item>@string/pharmacy_drugs</item>
+    </string-array>
+
+
+    <string-array name="nursing_departments">
+        <item>@string/nursing_general</item>
+        <item>@string/nursing_midwifery_and_newborn</item>
+        <item>@string/nursing_and_intensive_care_anesthesia</item>
+    </string-array>
+
+
+    <string-array name="agriculture_departments">
+        <!--  EMPTY  -->
+    </string-array>
+
+
+    <string-array name="islamic_studies_departments">
+        <!--  EMPTY  -->
+    </string-array>
+
+
+    <string-array name="physical_education_departments">
+        <item>@string/department_of_educational_sciences_and_psychological_and_sports</item>
+        <item>@string/department_of_curriculum_and_teaching_physical_education</item>
+        <item>@string/department_of_sports_training_and_movement_science</item>
+        <item>@string/department_of_management_and_sports_and_recreation</item>
+        <item>@string/physical_therapy_an_rehabilitation_department</item>
+    </string-array>
+
+
+    <string-array name="arts_and_media_departments">
+        <item>@string/arts_and_media_department_of_decoration_architecture_and_interior_design</item>
+        <item>@string/arts_and_media_department_of_public_relations_and_advertising</item>
+        <item>@string/arts_and_media_department_of_design_and_decoration</item>
+        <item>@string/arts_and_media_radio_and_television_department</item>
+        <item>@string/arts_and_media_department_of_performing_arts</item>
+        <item>@string/arts_and_media_department_of_art_education</item>
+        <item>@string/arts_and_media_electronic_media_decoration</item>
+        <item>@string/arts_and_media_department_of_musical_arts</item>
+        <item>@string/arts_and_media_press_department</item>
+    </string-array>
+
+
+    <string-array name="dentistry_and_oral_surgery_departments">
+        <item>@string/dept_of_oral_medicine_radiology_and_pathology_oral_diagnosis</item>
+        <item>@string/dept_of_preventive_and_community_dentistry</item>
+        <item>@string/dept_of_oral_and_maxillofacial_surgery</item>
+        <item>@string/dept_of_conservative_centistry</item>
+        <item>@string/dept_of_prosthodontics</item>
+        <item>@string/dept_of_oral_biology</item>
+        <item>@string/dept_of_orthodontics</item>
+        <item>@string/dept_of_periodontics</item>
+        <item>@string/dept_of_pedodontics</item>
+    </string-array>
+
+
+
+    <!-- ################################################################################## -->
+
+
+    <string-array name="eng_departments_description">
+        <item>@string/eng_eee_desc</item>
+        <item>@string/eng_hee_desc</item>
+        <item>@string/eng_mse_desc</item>
+        <item>@string/eng_ae_desc</item>
+        <item>@string/eng_ie_desc</item>
+        <item>@string/eng_me_desc</item>
+        <item>@string/eng_pe_desc</item>
+        <item>@string/eng_gd_desc</item>
+        <item>@string/eng_ce_desc</item>
+    </string-array>
+
+
+    <string-array name="it_departments_description">
+        <item>@string/it_is_desc</item>
+        <item>@string/it_cs_desc</item>
+        <item>@string/it_se_desc</item>
+        <item>@string/it_ne_desc</item>
+        <item>@string/it_mm_desc</item>
+        <item>@string/it_info_sys_desc</item>
+    </string-array>
+
+
+    <string-array name="sci_departments_description">
+        <item>@string/sci_math_desc</item>
+        <item>@string/sci_micro_desc</item>
+        <item>@string/sci_botany_desc</item>
+        <item>@string/sci_physics_desc</item>
+        <item>@string/sci_zoology_desc</item>
+        <item>@string/sci_genetics_desc</item>
+        <item>@string/sci_chemistry_desc</item>
+        <item>@string/sci_statistics_desc</item>
+        <item>@string/sci_medical_physics_desc</item>
+    </string-array>
+
+
+    <string-array name="edu_departments_description">
+        <item>@string/edu_manag_edu_planning_desc</item>
+        <item>@string/edu_social_service_desc</item>
+        <item>@string/edu_psychology_desc</item>
+        <item>@string/edu_kindergarten_desc</item>
+        <item>@string/edu_special_desc</item>
+        <item>@string/edu_arabic_desc</item>
+        <item>@string/edu_geography_desc</item>
+        <item>@string/edu_chapter_desc</item>
+        <item>@string/edu_computer_desc</item>
+        <item>@string/edu_physics_desc</item>
+        <item>@string/edu_chemists_desc</item>
+        <item>@string/edu_history_desc</item>
+        <item>@string/edu_math_desc</item>
+        <item>@string/edu_biology_desc</item>
+    </string-array>
+
+
+    <string-array name="arts_departments_description">
+        <item>@string/arts_psychological_health_desc</item>
+        <item>@string/arts_geography_and_it_desc</item>
+        <item>@string/arts_libs_and_info_desc</item>
+        <item>@string/arts_philosophy_desc</item>
+        <item>@string/arts_sociology_desc</item>
+        <item>@string/arts_history_desc</item>
+        <item>@string/arts_english_desc</item>
+        <item>@string/arts_italian_desc</item>
+        <item>@string/arts_arabic_desc</item>
+        <item>@string/arts_french_desc</item>
+        <item>@string/arts_edu_desc</item>
+    </string-array>
+
+
+    <string-array name="eco_poli_departments_description">
+        <item>@string/eco_poli_general_desc</item>
+        <item>@string/eco_poli_economics_desc</item>
+        <item>@string/eco_poli_marketing_desc</item>
+        <item>@string/eco_poli_accounting_desc</item>
+        <item>@string/eco_poli_business_admins_desc</item>
+        <item>@string/eco_poli_general_admins_desc</item>
+        <item>@string/eco_poli_political_science_desc</item>
+        <item>@string/eco_poli_international_trade_desc</item>
+    </string-array>
+
+
+    <string-array name="low_departments_description">
+        <item>@string/low_criminal_desc</item>
+        <item>@string/low_islamic_desc</item>
+        <item>@string/low_private_desc</item>
+        <item>@string/low_public_desc</item>
+    </string-array>
+
+
+    <string-array name="human_med_departments_description">
+        <item>@string/human_med_preparation_desc</item>
+        <item>@string/human_med_anatomy_desc</item>
+        <item>@string/human_med_histology_desc</item>
+        <item>@string/human_med_physiology_desc</item>
+        <item>@string/human_med_biochemistry_desc</item>
+        <item>@string/human_med_pharmacology_desc</item>
+        <item>@string/human_med_microbiology_desc</item>
+        <item>@string/human_med_parasitology_desc</item>
+        <item>@string/human_med_pathology_desc</item>
+        <item>@string/human_med_gynecology_desc</item>
+        <item>@string/human_med_ophthalmology_desc</item>
+        <item>@string/human_med_family_and_community_desc</item>
+        <item>@string/human_med_forensic_desc</item>
+        <item>@string/human_med_internal_desc</item>
+        <item>@string/human_med_surgery_desc</item>
+        <item>@string/human_med_pediatrics_desc</item>
+        <item>@string/human_med_radiology_and_Imaging_desc</item>
+    </string-array>
+
+
+    <string-array name="pharmacy_departments_description">
+        <item>@string/pharmacy_industrial_pharmacy_desc</item>
+        <item>@string/pharmacy_drugs_and_toxins_desc</item>
+        <item>@string/pharmacy_pharmaceutics_desc</item>
+        <item>@string/pharmacy_chemistry_desc</item>
+        <item>@string/pharmacy_drugs_desc</item>
+    </string-array>
+
+
+    <string-array name="nursing_departments_description">
+        <item>@string/nursing_general_desc</item>
+        <item>@string/nursing_midwifery_and_newborn_desc</item>
+        <item>@string/nursing_and_intensive_care_anesthesia_desc</item>
+    </string-array>
+
+
+    <string-array name="agriculture_departments_description">
+        <!--  EMPTY  -->
+    </string-array>
+
+
+    <string-array name="islamic_studies_departments_description">
+        <!--  EMPTY  -->
+    </string-array>
+
+
+    <string-array name="physical_education_departments_description">
+        <item>@string/department_of_educational_sciences_and_psychological_and_sports_desc</item>
+        <item>@string/department_of_curriculum_and_teaching_physical_education_desc</item>
+        <item>@string/department_of_sports_training_and_movement_science_desc</item>
+        <item>@string/department_of_management_and_sports_and_recreation_desc</item>
+        <item>@string/physical_therapy_an_rehabilitation_department_desc</item>
+    </string-array>
+
+
+    <string-array name="arts_and_media_departments_description">
+        <item>@string/arts_and_media_department_of_decoration_architecture_and_interior_design_desc</item>
+        <item>@string/arts_and_media_department_of_public_relations_and_advertising_desc</item>
+        <item>@string/arts_and_media_department_of_design_and_decoration_desc</item>
+        <item>@string/arts_and_media_radio_and_television_department_desc</item>
+        <item>@string/arts_and_media_department_of_performing_arts_desc</item>
+        <item>@string/arts_and_media_department_of_art_education_desc</item>
+        <item>@string/arts_and_media_electronic_media_decoration_desc</item>
+        <item>@string/arts_and_media_department_of_musical_arts_desc</item>
+        <item>@string/arts_and_media_press_department_desc</item>
+    </string-array>
+
+
+    <string-array name="dentistry_and_oral_surgery_departments_description">
+        <item>@string/dept_of_oral_medicine_radiology_and_pathology_oral_diagnosis_desc</item>
+        <item>@string/dept_of_preventive_and_community_dentistry_desc</item>
+        <item>@string/dept_of_oral_and_maxillofacial_surgery_desc</item>
+        <item>@string/dept_of_conservative_centistry_desc</item>
+        <item>@string/dept_of_prosthodontics_desc</item>
+        <item>@string/dept_of_oral_biology_desc</item>
+        <item>@string/dept_of_orthodontics_desc</item>
+        <item>@string/dept_of_periodontics_desc</item>
+        <item>@string/dept_of_pedodontics_desc</item>
+    </string-array>
+
+
+</resources>

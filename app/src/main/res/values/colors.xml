@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdaa00</color>
+    <color name="colorPrimaryDark">#c3912c</color>
+    <color name="colorAccent">#0077ff</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#dddddd</color>
+    <color name="darkGray">#aaaaaa</color>
+    <color name="black" >#000000</color>
+    <color name="wightGreen">#00FF00</color>
+    <color name="green">#00CD00</color>
+    <color name="darkGreen">#008800</color>
+    <color name="wightRed">#FF0000</color>
+    <color name="red">#CD0000</color>
+    <color name="darkRed">#880000</color>
+    <color name="wightBlue">#0000FF</color>
+    <color name="blue">#0000CD</color>
+    <color name="darkBlue">#000088</color>
+    <color name="primaryColor">#496f9f</color>
+    <color name="secondaryColor">#ccffcc00</color>
+</resources>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        app:srcCompat="@drawable/misurata_university"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/app_name"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#DDDDDD" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/facultyOfIT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="informationTechnology"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/it_faculty_description"
+                        android:scaleType="fitCenter"
+                        android:onClick="informationTechnology"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faculty_of_information_technology"
+                        android:textAlignment="center"
+                        android:onClick="informationTechnology"
+                        android:maxLines="2"
+                        android:lines="2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/facultyOfEng"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="engineering"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/eng_faculty_description"
+                        android:scaleType="fitCenter"
+                        android:onClick="engineering"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/eng_faculty_description"
+                        android:textAlignment="center"
+                        android:onClick="engineering"
+                        android:maxLines="2"
+                        android:lines="2"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/facultyOfDentistry"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="dentistry"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_dentistry"
+                        android:scaleType="fitCenter"
+                        android:onClick="dentistry"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faculty_of_dentistry"
+                        android:textAlignment="center"
+                        android:onClick="dentistry"
+                        android:maxLines="2"
+                        android:lines="2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/facultyOfArts"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="arts"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_arts"
+                        android:scaleType="fitCenter"
+                        android:onClick="arts"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faculty_of_arts"
+                        android:textAlignment="center"
+                        android:onClick="arts"
+                        android:maxLines="2"
+                        android:lines="2" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="economics"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_economics"
+                        android:scaleType="fitCenter"
+                        android:onClick="economics"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="economics"
+                        android:text="@string/faculty_of_economics"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/facultyOfScience"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="science"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_science"
+                        android:onClick="science"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="science"
+                        android:text="@string/faculty_of_science"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="medicine"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_medicine"
+                        android:onClick="medicine"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faculty_of_medicine"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="medicine"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="education"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_education"
+                        android:onClick="education"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="education"
+                        android:text="@string/faculty_of_education"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="low"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_low"
+                        android:scaleType="fitCenter"
+                        android:onClick="low"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="low"
+                        android:text="@string/faculty_of_low"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="nursing"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_nursing"
+                        android:scaleType="fitCenter"
+                        android:onClick="nursing"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faculty_of_nursing"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="nursing"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="pharmacy"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_pharmacy"
+                        android:onClick="pharmacy"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faculty_of_pharmacy"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="pharmacy"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/facultyOfEconomics"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="agriculture"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_agriculture"
+                        android:onClick="agriculture"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faculty_of_agriculture"
+                        android:maxLines="2"
+                        android:lines="2"
+                        android:onClick="agriculture"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:weightSum="4"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="arts_and_media"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_arts_and_media"
+                        android:scaleType="fitCenter"
+                        android:onClick="arts_and_media"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/faculty_of_arts_and_media"
+                        android:onClick="arts_and_media"
+                        android:maxLines="2"
+                        android:lines="2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="islamic_studies"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_islamic_studies"
+                        android:scaleType="fitCenter"
+                        android:onClick="islamic_studies"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/faculty_of_islamic_studies"
+                        android:onClick="islamic_studies"
+                        android:maxLines="2"
+                        android:lines="2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="physical_education"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/faculty_of_physical_education"
+                        android:scaleType="fitCenter"
+                        android:onClick="physical_education"
+                        app:srcCompat="@drawable/faculty_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/faculty_of_physical_education"
+                        android:onClick="physical_education"
+                        android:maxLines="2"
+                        android:lines="2" />
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "901376688285",
+    "firebase_url": "https://misurata-university-guide.firebaseio.com",
+    "project_id": "misurata-university-guide",
+    "storage_bucket": "misurata-university-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901376688285:android:87e48c7fa5a33630",
+        "android_client_info": {
+          "package_name": "kse.edu.misuratauniversityguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901376688285-t4p8ffpc3kks104h47up55vj453b2ofr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kse.edu.misuratauniversityguide",
+            "certificate_hash": "164b0d784ca04e56947e468c600ecdb9950c478a"
+          }
+        },
+        {
+          "client_id": "901376688285-ig0t6gg9c3ri58kqriq02usq6unvm4sa.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "901376688285-ig0t6gg9c3ri58kqriq02usq6unvm4sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjMeSVmqr3jmAuc0Tst0AZS-ag9Ht9bTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901376688285-ig0t6gg9c3ri58kqriq02usq6unvm4sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
