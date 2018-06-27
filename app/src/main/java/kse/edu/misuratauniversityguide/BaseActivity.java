@@ -77,16 +77,15 @@ public abstract class BaseActivity extends AppCompatActivity {
             setSupportActionBar(mainToolbar);
 //            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-            loginDialog = new Dialog(this);
-                setupLoginDialog();
+            loginDialog = new Dialog(this, R.style.AppTheme_NoActionBar);
+            setupLoginDialog();
 
-            registerDialog = new Dialog(this);
-                setupRegisterDialog();
+            registerDialog = new Dialog(this, R.style.AppTheme_NoActionBar);
+            setupRegisterDialog();
 
         } else {
             mainToolbar.setVisibility(View.GONE);
         }
-
     }
 
     protected boolean useToolbar() {

@@ -3,12 +3,17 @@ package kse.edu.misuratauniversityguide;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+
+import org.awaitility.Awaitility;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +31,20 @@ public class Common {
 
     public final static String IT_QUESTIONS = "IT Questions";
     public final static String ENG_QUESTIONS = "ENG Questions";
+
+    public final static String RESULTS_COLLECTION_NAME = "Results";
+
+    public final static String QUESTION = "Question";
+    public final static String CHOICE1 = "Choice1";
+    public final static String CHOICE2 = "Choice2";
+    public final static String CHOICE3 = "Choice3";
+    public final static String ANSWER = "Answer";
+
+
+    public final static double IT_LATITUDE = 32.352216;
+    public final static double IT_LONGITUDE = 15.067652;
+    public final static double ENG_LATITUDE = 32.351414;
+    public final static double ENG_LONGITUDE = 15.067852;
 
     static boolean isPackageExists(Context c, String targetPackage) {
 
@@ -78,10 +97,10 @@ public class Common {
                 facebookUri = Uri.parse( Common.getFacebookPageURL(context, "KSE.edu") );
                 break;
             case FACULTY_OF_ENGINEERING:
-                facebookUri = Uri.parse( Common.getFacebookPageURL(context, "KSE.edu") );
+                facebookUri = Uri.parse( Common.getFacebookPageURL(context, "EngineeringMisurata") );
                 break;
             case FACULTY_OF_INFORMATION_TECHNOLOGY:
-                facebookUri = Uri.parse( Common.getFacebookPageURL(context, "KSE.edu") );
+                facebookUri = Uri.parse( Common.getFacebookPageURL(context, "it.misuratau.edu.ly") );
                 break;
             case FACULTY_OF_DENTISTRY_AND_ORAL_SURGERY:
                 facebookUri = Uri.parse( Common.getFacebookPageURL(context, "KSE") );
@@ -120,14 +139,43 @@ public class Common {
                         questionView.setAnswers((String)document.get("Question"));
                     }
                     wait.set(false);
-                }else {
-
                 }
             });
         }
 
         while (wait.get());
         return questionViews;
+    }
+
+    public static List<Question> getQuestions(@NonNull String collectionName, int requiredQuestion){
+
+        AtomicBoolean wait = new AtomicBoolean(true);
+
+        List<Question> questions = new ArrayList<>();
+
+        if( FirebaseAuth.getInstance().getCurrentUser() != null) {
+            FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+            firestore.collection(collectionName).get().addOnCompleteListener(task ->{
+                if(task.isSuccessful()) {
+                    List<DocumentSnapshot> documents = task.getResult().getDocuments();
+                    for (DocumentSnapshot document : documents) {
+                        String q = (String) document.get(QUESTION);
+                        List<CharSequence> choices = new ArrayList<>();
+                        choices.add((String) document.get(CHOICE1));
+                        choices.add((String) document.get(CHOICE2));
+                        choices.add((String) document.get(CHOICE3));
+                        int ans = (int) document.get(ANSWER);
+                        questions.add(new Question(q, choices, ans));
+                    }
+                    wait.set(false);
+                }
+            });
+        }
+
+        Log.i("LOG_TAG", "Waiting ...");
+        Awaitility.await().until(wait::get);
+        Log.i("LOG_TAG", "Done.");
+        return questions;
     }
 
     public static void setEnable(View view, boolean enable){

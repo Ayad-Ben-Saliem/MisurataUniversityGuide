@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 
 import com.google.android.gms.common.ConnectionResult;
@@ -45,11 +46,11 @@ implements OnMapReadyCallback,
             case FACULTY_OF_ECONOMICS:
             case FACULTY_OF_EDUCATION:
             case FACULTY_OF_ENGINEERING:
-                position = new LatLng(32.352077, 15.067864);
+                position = new LatLng(Common.ENG_LATITUDE, Common.ENG_LONGITUDE);
                 title = "FACULTY OF ENGINEERING";
                 break;
             case FACULTY_OF_INFORMATION_TECHNOLOGY:
-                position = new LatLng(32.352285, 15.067650);
+                position = new LatLng(Common.IT_LATITUDE, Common.IT_LONGITUDE);
                 title = "FACULTY OF INFORMATION TECHNOLOGY";
                 break;
             case FACULTY_OF_DENTISTRY_AND_ORAL_SURGERY:
@@ -59,50 +60,25 @@ implements OnMapReadyCallback,
     }
 
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        GoogleMap map = googleMap;
-
-        map.addMarker(new MarkerOptions().position(position).title(title));
-        map.moveCamera(CameraUpdateFactory.newLatLng(position));
+        Log.d("TAG_TAG", "Here");
+        googleMap.addMarker(new MarkerOptions().position(position).title(title));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(position));
     }
 
     @Override
-    public void onConnected(@Nullable Bundle bundle) {
-
-    }
+    public void onConnected(@Nullable Bundle bundle) { }
 
     @Override
-    public void onConnectionSuspended(int i) {
-
-    }
+    public void onConnectionSuspended(int i) { }
 
     @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-    }
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) { }
 
     @Override
-    public void onLocationChanged(Location location) {
+    public void onLocationChanged(Location location) { }
 
-    }
-
-    /**
-     * Called when pointer capture is enabled or disabled for the current window.
-     *
-     * @param hasCapture True if the window has pointer capture.
-     */
     @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
-
-    }
+    public void onPointerCaptureChanged(boolean hasCapture) { }
 }
