@@ -250,7 +250,7 @@ public class Faculty extends BaseActivity {
     }
 
     public void location(View view){
-        startActivity(new Intent(this, LocationActivity.class).putExtra("Faculty", faculty));
+        startActivity(new Intent(this, MapsActivity.class).putExtra("Faculty", faculty));
     }
 
     public void studentResult(View view){
